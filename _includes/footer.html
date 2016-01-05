@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <ul>
+    <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    <li>{% if site.github_username %}
+            {% include icon-github.html username=site.github_username %}
+          {% endif %}</li>
+    <li> {% if site.twitter_username %}
+
+            {% include icon-twitter.html username=site.twitter_username %}
+
+          {% endif %}</li>	
+     <li>
+     	  subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+     </li>
+  </ul>
+
+</footer>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: ruby
+categories:
+---
+
+add something
