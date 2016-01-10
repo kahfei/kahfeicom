@@ -4,11 +4,19 @@
   <body>
   <div class="wrapper">
   <header>
-    <h2>
+    <h2 class="site-title">
       <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-      <small class="site-desc">{{ site.description }}</small>
     </h2>
+        <small class="site-desc">{{ site.description }}</small>
+        <ul>
+        {% for page in site.pages %}
+          {% if page.categories == "navigation"%}
+            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
   </header>
+
   <main>
 
   	{{ content }}

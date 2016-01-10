@@ -11,21 +11,24 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 38px;
     font-weight: 300;
     line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
     &:visited {
         color: $grey-color-dark;
     }
 }
-header h2 {
+header {
     padding: 30px 0;
-    font-size: 38px;
+    ul {
+        list-style: none;
+    }
+    li {
+        float: left;
+    width: 58px;
+    padding: 0 12px;
+    margin-right: 12px;
+    }
 }
 .site-desc {
     font-size: 15px;
@@ -188,14 +191,12 @@ header h2 {
     padding-bottom: 80px;
     text-align: justify;
 }
-.content a {
+.content a, .post-content a {
     border-bottom: 1px dotted;
     &:hover {
         color: #ff9f1c;
     }
 }
-
-
 
 .page-heading {
     font-size: 20px;
