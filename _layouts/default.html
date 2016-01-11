@@ -4,17 +4,27 @@
   <body>
   <div class="wrapper">
   <header>
-    <h2>
+    <h2 class="site-title">
       <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-      <small class="site-desc">{{ site.description }}</small>
     </h2>
+    <div class="site-meta">
+        <small class="site-desc">{{ site.description }}</small>
+        <ul class="site-navbar">
+        {% for page in site.pages %}
+          {% if page.categories == "navigation"%}
+            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
   </header>
-  <main>
 
+  <main>
   	{{ content }}
   </main>
 	{% include footer.html %}
   </div>
+  <script id="dsq-count-scr" src="//kahfeicom.disqus.com/count.js" async></script>
   </body>
 </html>
 

@@ -11,8 +11,14 @@ email: me@kahfei.com
 description: "write, code, read, doodle and some other stuff"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kahfei.com" # the base hostname & protocol for your site
+permalink:    /:year/:month/:day/:title/
 twitter_username: kahfei
 github_username:  kahfei
 
 # Build settings
 markdown: kramdown
+exclude: 
+  - s3_website.yml
+
+
+
