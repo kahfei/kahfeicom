@@ -8,7 +8,7 @@ ok, find some time to do a bit of minor changes on the site design.
 
 Basically what I have in mind, is trying to use minimal graphics in the design and play mainly with CSS, different set of fonts(I don&#8217;t think I am qualified enough to say typography, so, no, I just playing with fonts), and minimal numbers of colors.
 
-<div id="attachment_8" style="width: 310px" class="wp-caption alignnone">
+
   <a href="http://www.kahfei.com/wp-content/uploads/2008/07/jontan.jpg"><img class="size-medium wp-image-8" title="jontan" src="http://www.kahfei.com/wp-content/uploads/2008/07/jontan-300x273.jpg" alt="jontangerine" width="300" height="273" srcset="http://www.kahfei.com/wp-content/uploads/2008/07/jontan-300x273.jpg 300w, http://www.kahfei.com/wp-content/uploads/2008/07/jontan.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" /></a></dt> </dl> 
   
   <div class="mceTemp">
@@ -18,7 +18,8 @@ Basically what I have in mind, is trying to use minimal graphics in the design a
         
         <p class="wp-caption-text">
           subtraction
-        </p></div> 
+        </p>
+
         
         <dl id="attachment_8" class="wp-caption alignnone" style="width: 310px;">
           <dd class="wp-caption-dd">
