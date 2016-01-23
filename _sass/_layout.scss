@@ -211,6 +211,9 @@ header {
 .page-heading {
     font-size: 20px;
 }
+.page-header {
+    padding: 50px 0 0 0;
+}
 
 .post-list {
     margin-left: 0;
@@ -252,7 +255,7 @@ header {
     margin-top: 50px;
 
 }
-.post-head-title {
+.post-head-title, .page-title {
     font-family: $title-font-family;
     font-weight: 700;
 }
