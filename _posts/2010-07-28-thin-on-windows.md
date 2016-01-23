@@ -4,7 +4,7 @@ layout: post
 permalink: /2010/07/28/thin-on-windows/
 comments: true
 ---
-Read about [thin](http://code.macournoyer.com/thin/) for a while (faster than webrick, faster than mongrel), but didn&#8217;t really get the chance to try it out, until recently.
+Read about [thin](http://code.macournoyer.com/thin/) for a while (faster than webrick, faster than mongrel), but didn't really get the chance to try it out, until recently.
 
 As I am looking for moving my little rails application out of instantrails to a proper production environment, decided to give thin a spin, too bad [Passenger](http://www.modrails.com/) isn&#8217;t supporting Windows platform, heard a lot of good thing about it too.
 
