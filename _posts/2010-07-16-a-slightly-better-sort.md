@@ -12,7 +12,7 @@ hackers = %w{matz ddh adrian guido gosling knuth linus}
 i = hackers.length 
 sorted = []
 while i > 0 
-  small = hackers.inject{ |a,b| a &lt; b ? a : b}
+  small = hackers.inject{ |a,b| a < b ? a : b}
   sorted.push small 
   hackers.delete small
   i -= 1
