@@ -12,6 +12,8 @@ description: "write, code, read, doodle and some other stuff"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kahfei.com" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
+gems: [jekyll-paginate]
+paginate: 5
 twitter_username: kahfei
 github_username:  kahfei
 
